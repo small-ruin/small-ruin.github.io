@@ -1,0 +1,86 @@
+# 法术列表
+## 一环
+- 通晓语言（Comprehend languages）
+- 治疗轻伤（Cure light wounds）
+- 侦测密门（Detect secret doors）
+- 侦测死灵（Detect undead）
+- 易容术（Disguise self）
+- 忍受环境（Endure elements）
+- 变巨术（Enlarge person）
+- 脚底抹油（Expeditious retreat）
+- 鉴定术（Identify）
+- 跳跃术（Jump）
+- 人类缩小术（Reduce person）
+- 护盾术（Shield）
+- 克敌机先（True strike）
+## 二环
+- 援助术（Aid）
+- 变身术（Alter self）
+- 树肤术（Barkskin）
+- 熊之坚韧（Bear's endurance）
+- 朦胧术（Blur）
+- 牛之力量（Bull's strength）
+- 猫之优雅（Cat's grace）
+- 治疗中度伤（Cure moderate wounds）
+- 黑暗视觉（Darkvision）
+- 减缓毒发（Delay poison）
+- 侦测思想（Detect thoughts）
+- 鹰之威仪（Eagle's splendor）
+- 虚假生命（False life）
+- 狐之狡黠（Fox's cunning）
+- 隐形术（Invisibility）
+- 浮空术（levitate）
+- 枭之睿智（Owl's wisdom）
+- 防护箭矢（Protection from arrows）
+- 抵抗能量伤害（Resist energy）
+- 次等复原术（Restoration (lesser)）
+- 识破隐形（See invisibility）
+- 蛛行术（Spider climb）
+- 隐匿阵营（Undetectable alignment）
+## 三环
+- 秘法视力（Arcane sight）
+- 治疗重伤（Cure serious wounds）
+- 移位术（Displacement）
+- 飞行术（Fly）
+- 气化形体（Gaseous form）
+- 加速术（Haste）
+- 英雄气概（Heroism）
+- 回避侦测（Nondetection）
+- 防护能量伤害（Protection from energy）
+- 狂暴术（Rage）
+- 移除目盲/耳聋（Remove blindness/deafness）
+- 移除诅咒（Remove curse）
+- 移除疾病（Remove disease）
+- 巧言术（Tongues）
+- 水中呼吸（Water breathing）
+## 四环
+- 凌空而行（Air walk）
+- 秘法眼（Arcane eye）
+- 治疗致命伤（Cure critical wounds）
+- 防死结界（Death ward）
+- 辨知谎言（Discern lies）
+- 火焰护盾（Fire shield）
+- 行动自如（Freedom of movement）
+- 高级隐形术（Invisibility (greater)）
+- 中和毒性（Neutralize poison）
+- 复原术（Restoration）
+- 法术免疫（Spell immunity）
+- 石肤术（Stoneskin）
+## 五环
+- 异界探知（Contact other plane）
+- 托梦术（Dream）
+- 魔魂壶（Magic jar）
+- 梦魇（Nightmare）
+- 翱翔天际（Overland flight）
+- 短讯术（Sending）
+- 法术抗力（Spell resistance）
+## 六环
+- 摄心目光（Eyebite）
+- 医疗术（Heal）
+- 假象术（Mislead）
+- 变形术（Polymorph）
+- 行影术（Shadow walk）
+- 雕像术（Statue）
+- 转变术（Transformation）
+- 真知术（True seeing）
+- 御风而行（Wind walk）
