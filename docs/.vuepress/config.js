@@ -9,11 +9,13 @@ module.exports = {
         sidebar: [
             {
                 title: '合榭的房规',
+                collapsable: false,
                 path: '/hilshire/',
                 children: [
                     {
                         title: '规则变化',
                         path: '/hilshire/house-rule/',
+                        collapsable: false,
                         children: [
                             {
                                 title: '法术',
@@ -33,28 +35,56 @@ module.exports = {
                     {
                         title: 'PF补充规则',
                         path: '/hilshire/pf/',
+                        collapsable: false,
                         children: [
                             {
                                 title: '职业',
                                 path: '/hilshire/pf/class/',
+                                collapsable: false,
                                 children: [
                                     {
                                         title: '炼金术士',
+                                        collapsable: false,
                                         path: '/hilshire/pf/class/Alchemist/',
                                         children: [
                                             {
-                                                title: '科研发明',
-                                                path: '/hilshire/pf/class/Alchemist/Discovery'
+                                                title: '炼金专长',
+                                                path: '/hilshire/pf/class/Alchemist/AlchemistFeats'
                                             },
-                                            {
-                                                title: '合成公式',
-                                                path: '/hilshire/pf/class/Alchemist/Spell'
-                                            }
                                         ]
                                     }
                                 ]
+                            },
+                            {
+                                title: '炼金物品',
+                                collapsable: false,
+                                path: '/hilshire/pf/AlchemicalItems/',
+                                children: [
+                                    {
+                                        title: '炼金炸弹',
+                                        path: '/hilshire/pf/AlchemicalItems/AlchemicalBombs'
+                                    },
+                                    {
+                                        title: '炼金灵药',
+                                        path: '/hilshire/pf/AlchemicalItems/AlchemicalElixirs'
+                                    },
+                                    {
+                                        title: '炼金毒素',
+                                        path: '/hilshire/pf/AlchemicalItems/AlchemicalPoisons'
+                                    },
+                                    {
+                                        title: '炼金工具',
+                                        path: '/hilshire/pf/AlchemicalItems/AlchemicalTools'
+                                    },
+                                ]
                             }
                         ]
+                    },
+
+                    {
+                        title: '私设：无冕者之书',
+                        path: '/hilshire/theBookOfUncrown/',
+                        collapsable: false,
                     }
                 ]
             }
