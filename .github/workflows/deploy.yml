@@ -24,7 +24,7 @@ jobs:
           npm run docs:build
           cd 3.5_character_card_generator
           pwd
-          npm run build
+          npx vite build --base="./"
           cd ../
           pwd
       - name: copy
