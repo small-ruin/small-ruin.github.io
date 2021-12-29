@@ -1,0 +1,3 @@
+[submodule "3.5_character_card_generator"]
+	path = 3.5_character_card_generator
+	url = https://github.com/small-ruin/3.5_character_card_generator.git
