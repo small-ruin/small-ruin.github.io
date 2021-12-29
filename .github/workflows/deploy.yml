@@ -1,9 +1,9 @@
 name: deploy
 on:
   push:
-    branches: [master, add_submodule]
+    branches: [master]
   pull_request:
-    branches: [master, add_submodule]
+    branches: [master]
 jobs:
   deploy:
     runs-on: ubuntu-latest
