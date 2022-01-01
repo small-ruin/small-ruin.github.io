@@ -23,14 +23,22 @@ jobs:
         run: |
           npm run docs:build
           cd 3.5_character_card_generator
-          pwd
           npx vite build --base="./"
           cd ../
-          pwd
       - name: copy
         run: |
           mkdir docs/.vuepress/dist/cg
           mv 3.5_character_card_generator/dist/* docs/.vuepress/dist/cg/
+      - name: build-dm-tool
+        run: |
+          cd 3.5_character_card_generator
+          npx vite build --config="dm/vite.config.js" --base="./"
+          cd ../
+      - name: copy-dm-tool
+        run: |
+          mkdir docs/.vuepress/dist/dm
+          mv 3.5_character_card_generator/dist/dm/* 3.5_character_card_generator/dist/
+          mv 3.5_character_card_generator/dist/* docs/.vuepress/dist/dm/      
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@4.1.7
         with:
