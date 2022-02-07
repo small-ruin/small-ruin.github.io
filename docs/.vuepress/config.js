@@ -78,6 +78,17 @@ module.exports = {
                                         path: '/hilshire/pf/AlchemicalItems/AlchemicalTools'
                                     },
                                 ]
+                            },
+                            {
+                                title: '扩展',
+                                collapsable: false,
+                                path: '/hilshire/pf/supplement/',
+                                children: [
+                                    {
+                                        title: 'APG',
+                                        path: '/hilshire/pf/supplement/APG'
+                                    }
+                                ]
                             }
                         ]
                     },
