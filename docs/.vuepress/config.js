@@ -24,7 +24,33 @@ module.exports = {
                             },
                             {
                                 title: '职业',
-                                path: '/hilshire/house-rule/class'
+                                path: '/hilshire/house-rule/class',
+                                children: [
+                                    { 
+                                        title: '野蛮人',
+                                        path: '/hilshire/house-rule/class/Barbarian'
+                                    },
+                                    { 
+                                        title: '吟游诗人',
+                                        path: '/hilshire/house-rule/class/Bard'
+                                    },
+                                    { 
+                                        title: '牧师',
+                                        path: '/hilshire/house-rule/class/Cleric'
+                                    },
+                                    { 
+                                        title: '战士',
+                                        path: '/hilshire/house-rule/class/Fighter'
+                                    },
+                                    { 
+                                        title: '武僧',
+                                        path: '/hilshire/house-rule/class/Monk'
+                                    },
+                                    { 
+                                        title: '圣骑士',
+                                        path: '/hilshire/house-rule/class/Paladin'
+                                    },
+                                ]
                             },
                             {
                                 title: '阵营',
@@ -53,6 +79,25 @@ module.exports = {
                                                 path: '/hilshire/pf/class/Alchemist/AlchemistFeats'
                                             },
                                         ]
+                                    }
+                                ]
+                            },
+                            {
+                                title: '专长',
+                                collapsable: false,
+                                path: '/hilshire/pf/fates/',
+                                children: [
+                                    {
+                                        title: 'CRB',
+                                        path: '/hilshire/pf/fates/CRB'
+                                    },
+                                    {
+                                        title: 'APG',
+                                        path: '/hilshire/pf/fates/APG'
+                                    },
+                                    {
+                                        title: 'UM',
+                                        path: '/hilshire/pf/fates/UM' 
                                     }
                                 ]
                             },
@@ -89,7 +134,7 @@ module.exports = {
                                         path: '/hilshire/pf/supplement/APG'
                                     }
                                 ]
-                            }
+                            },
                         ]
                     },
 
