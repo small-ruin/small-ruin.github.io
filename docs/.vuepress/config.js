@@ -25,6 +25,7 @@ module.exports = {
                             {
                                 title: '职业',
                                 path: '/hilshire/house-rule/class',
+                                collapsable: true,
                                 children: [
                                     { 
                                         title: '野蛮人',
@@ -68,8 +69,8 @@ module.exports = {
                             },
                             {
                                 title: '专长',
-                                collapsable: false,
                                 path: '/hilshire/house-rule/fates/',
+                                collapsable: true,
                                 children: [
                                     {
                                         title: 'CRB',
@@ -99,7 +100,7 @@ module.exports = {
                             {
                                 title: '职业',
                                 path: '/hilshire/pf/class/',
-                                collapsable: false,
+                                collapsable: true,
                                 children: [
                                     {
                                         title: '炼金术士',
@@ -116,7 +117,7 @@ module.exports = {
                             },
                             {
                                 title: '炼金物品',
-                                collapsable: false,
+                                collapsable: true,
                                 path: '/hilshire/pf/AlchemicalItems/',
                                 children: [
                                     {
@@ -139,7 +140,7 @@ module.exports = {
                             },
                             {
                                 title: '扩展',
-                                collapsable: false,
+                                collapsable: true,
                                 path: '/hilshire/pf/supplement/',
                                 children: [
                                     {
