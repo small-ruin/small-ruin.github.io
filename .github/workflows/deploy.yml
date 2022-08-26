@@ -39,6 +39,16 @@ jobs:
           mkdir docs/.vuepress/dist/dm
           mv 3.5_character_card_generator/dist/dm/* 3.5_character_card_generator/dist/
           mv 3.5_character_card_generator/dist/* docs/.vuepress/dist/dm/      
+      - name: build-spells-tool
+        run: |
+          cd 3.5_character_card_generator
+          npx vite build --config="spells/vite.config.js" --base="./"
+          cd ../
+      - name: copy-spells-tool
+        run: |
+          mkdir docs/.vuepress/dist/spells
+          mv 3.5_character_card_generator/dist/spells/* 3.5_character_card_generator/dist/
+          mv 3.5_character_card_generator/dist/* docs/.vuepress/dist/spells/        
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@4.1.7
         with:

@@ -5,7 +5,8 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'hilshire的房规', link: '/hilshire/'},
-            { text: '3r人物卡生成工具', link: 'https://small-ruin.github.io/cg/'}
+            { text: '3r人物卡生成工具', link: 'https://small-ruin.github.io/cg/'},
+            { text: '3r法术速查', link: 'https://small-ruin.github.io/spells/'}
         ],
         sidebar: [
             {
